@@ -7,3 +7,4 @@ regex
 botasaurus
 selenium
 webdriver-manager
+chromedriver_installer
