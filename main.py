@@ -1,12 +1,8 @@
-from src import Gmaps
+#from src import Gmaps
 #import requests
+
 import os
-
-#path_info = request.META.get('PATH_INFO')
-
-
-url = os.environ['HTTP_HOST']
-
+url = os.environ
 print(url)
 
 
