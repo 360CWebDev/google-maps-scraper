@@ -1,13 +1,13 @@
 from src import Gmaps
-import requests
+#import requests
+import os
 
-def get_query_parameter(parameter_name):
-  request = requests.get("http://localhost:8080/")
-  query_parameters = request.args
-  return query_parameters.get(parameter_name)
+#path_info = request.META.get('PATH_INFO')
 
-query_parameter_value = get_query_parameter("query")
-print(query_parameter_value)
+
+url = os.environ['HTTP_HOST']
+
+print(url)
 
 
 #queries = [
